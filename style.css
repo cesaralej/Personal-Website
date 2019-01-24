@@ -1,0 +1,49 @@
+body{
+    background: #FFFFFF;
+    color: rgb(20,20,20);
+    font-family: 'Open Sans', sans-serif;;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #F95759;
+}
+h2{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+#banner {
+    background-image: url("https://image-aws-us-west-2.vsco.co/e7209f/101476130/5c48d10b3643003cad000000/1600x1066/vsco5c48d10e8cdf3.jpg");
+    background-size: cover;
+    padding: 150px 0px;
+    text-align: center;
+    color: white;
+
+}
+
+#banner h1{
+    color:white;
+}
+
+#banner p{
+    color:white;
+    font-weight: lighter;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+
+
+red:FEE8E8
+blue:2AB7CA
+yllow:FED766
+dgrey:E6E6EA
+lgrey:F4F4F8
