@@ -1,3 +1,8 @@
+/*Components design*/
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/header.css");
+
 body{
     background: #FFFFFF;
     color: rgb(20,20,20);
@@ -11,6 +16,7 @@ h1{
 }
 h2{
     font-size: 18px;
+    color: #F95759;
 }
 a{
     text-decoration: none;
@@ -26,41 +32,29 @@ a:hover{
     background-size: cover;
     padding: 150px 0px;
     text-align: center;
-    color: white;
 }
 
-header{
-    background-color: #F95759;
-    height: 50px;
-    margin-bottom: 0px;
-}
 
-#logo-header{
-    width: 90px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#banner h1{
-    color:white;
-}
 
 #banner p{
-    color:white;
+
     font-weight: lighter;
-    opacity: 0.7;
+
     font-size: 30px;
 }
 
-.center{
-    margin: 10px;
+main{
+    margin-top: 60px;
+    padding: 20px
 }
 
 footer{
     background-color: #E6E6EA;
-    height: 50px;
-    padding: 10px;
+    padding: 20px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
 }
 
 red:F95759
