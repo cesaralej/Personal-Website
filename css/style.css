@@ -2,6 +2,12 @@
 @import url("components/avatar.css");
 @import url("components/button.css");
 @import url("components/header.css");
+@import url("components/dropdown.css");
+@import url("components/card.css");
+@import url("components/badge.css");
+@import url("components/banner.css");
+@import url("components/tabs.css");
+@import url("components/product.css");
 
 body{
     background: #FFFFFF;
@@ -28,7 +34,7 @@ a:hover{
 }
 
 #banner {
-    background-image: url("images/bannerbackground.jpg");
+    background-image: url("../images/bannerbackground.jpg");
     background-size: cover;
     padding: 150px 0px;
     text-align: center;

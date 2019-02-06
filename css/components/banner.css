@@ -1,0 +1,29 @@
+.banner{
+    height: 100vh;
+    color: white;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.3)), url('../../images/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.banner p{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+}
+
