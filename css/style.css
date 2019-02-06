@@ -34,8 +34,8 @@ a:hover{
 }
 
 #banner {
-    background-image: url("../images/bannerbackground.jpg");
-    background-size: cover;
+    /*background-image: url("../images/bannerbackground.jpg");
+    background-size: cover;*/
     padding: 150px 0px;
     text-align: center;
 }
