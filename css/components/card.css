@@ -6,7 +6,7 @@
 .card{
     height: 200px;
     width: 300px;
-    margin: 0 5px 0 5px;
+    margin: 5px;
     color: white;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.3)), url('../../images/background.jpg');
     background-size: cover;
@@ -34,4 +34,30 @@
     position: absolute;
     top:10px;
     right: 10px;
+}
+
+.card.business{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.3)), url('../../images/background.jpg');
+    background-size: cover;
+}
+.card.business:hover{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0,0,0,0.2)), url('../../images/background.jpg');
+    background-size: cover;
+}
+.card.travel{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.3)), url('../../images/travel.jpg');
+    background-size: cover;
+}
+.card.travel:hover{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0,0,0,0.2)), url('../../images/travel.jpg');
+    background-size: cover;
+}
+
+.card.social{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.3)), url('../../images/social.jpg');
+    background-size: cover;
+}
+.card.social:hover{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0,0,0,0.2)), url('../../images/social.jpg');
+    background-size: cover;
 }

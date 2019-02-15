@@ -8,6 +8,8 @@
 @import url("components/banner.css");
 @import url("components/tabs.css");
 @import url("components/product.css");
+@import url("layouts/columns.css");
+
 
 body{
     background: #FFFFFF;
@@ -33,15 +35,30 @@ a:hover{
     color: #FED766;
 }
 
+.firstdiv{
+    margin-top: 120px;
+}
+
+.cvbanner{
+    background-image: linear-gradient(rgba(36,64,104,0.5), rgba(36,64,104,0.5)), url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+    color: white;
+
+}
+
 #banner {
     /*background-image: url("../images/bannerbackground.jpg");
     background-size: cover;*/
-    padding: 150px 0px;
+    padding: 0px;
     text-align: center;
+    height: calc(100vh - 260px);
 }
 
-
-
+#banner h1{
+    padding-top: 120px;
+}
 
 #banner p{
 
@@ -50,17 +67,36 @@ a:hover{
     font-size: 30px;
 }
 
-main{
-    margin-top: 60px;
-    padding: 20px
+
+
+
+.center{
+    width: 900px;
+    margin: 0 auto;
 }
+
+@media(max-width: 992px){
+    .center { width:700px; }
+}
+
+@media(max-width: 768px){
+    .center { width:500px; }
+}
+
+@media(max-width: 480px){
+    .center { width:350px; }
+}
+
+
 
 footer{
     background-color: #E6E6EA;
-    padding: 20px;
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
+    padding: 5px 20px;
+    height: 150px;
+}
+
+footer h2{
+    margin-top: 0px;
 }
 
 red:F95759

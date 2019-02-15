@@ -3,9 +3,10 @@ header{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px;
     background-color: #F95759;
-    position: fixed;
+    padding: 10px 10px 0 10px;
+/*    position: fixed;*/
     top: 0;
-    width: 100%;
+    width: calc(100% - 20px);
     height: 60px;
     text-align: center;
 }
@@ -19,16 +20,25 @@ header a{
 }
 
 header a:hover{
-    background-color: #BA1F33;
-    color: white;
+    background-color: white;
+    color: #BA1F33;
+}
+
+.header-item:first-child{
+    border-radius: 10px 0 0 0;
+}
+
+.header-item:last-child{
+    border-radius: 0 10px 0 0;
 }
 
 #logo-small a{
     padding: 0px;
 }
 
-.active{
-    /*the page you are on*/
+.header-item.active{
+    background-color: white;
+    color: #BA1F33;
 }
 
 #logo-header{

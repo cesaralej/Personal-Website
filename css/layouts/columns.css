@@ -1,0 +1,38 @@
+.columnflex{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    flex: 0 0 30%;
+
+}
+
+.sidebar {
+    flex: 0 0 400px;
+    height: 100vh;
+    position: sticky !important;
+    top: 120PX !important;
+}
+
+@media(max-width: 1500px){
+    .card { flex: 0 0 40%; }
+}
+
+@media(max-width: 1150px){
+    .card { flex: 0 0 40%; }
+    .sidebar { display: none; }
+}
+
+@media(max-width: 700px){
+    .card { flex: 0 0 100%; }
+    .sidebar { display: none; }
+}
